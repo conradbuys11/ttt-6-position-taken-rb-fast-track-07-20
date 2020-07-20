@@ -3,7 +3,8 @@
 board_array = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
 def position_taken?(board_array, space_chosen_int)
-  if board_array[space_chosen_int - 1] ==       #this space is empty
+  if board_array[space_chosen_int - 1] == " "      #this space is empty
+    board_array[space_chosen_int - 1] = "X"
     #allow move
   else
     #do something else
