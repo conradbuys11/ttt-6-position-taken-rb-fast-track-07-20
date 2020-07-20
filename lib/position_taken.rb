@@ -7,6 +7,7 @@ def position_taken?(board_array, space_chosen_int)
     board_array[space_chosen_int - 1] = "X"
     #allow move
   else
+    puts "Please select another place! Or Whatever!"
     #do something else
   end
 end
