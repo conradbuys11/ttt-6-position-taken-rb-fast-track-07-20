@@ -2,8 +2,8 @@
 
 board_array = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
-def position_taken?
-  if #this space is empty
+def position_taken?(board_array)
+  if        #this space is empty
     #allow move
   else
     #do something else
