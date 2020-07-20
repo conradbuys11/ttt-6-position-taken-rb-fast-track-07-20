@@ -1,6 +1,6 @@
 # code your #position_taken? method here!
 
-board_array = [" ", ]
+board_array = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
 def position_taken?
   if #this space is empty
